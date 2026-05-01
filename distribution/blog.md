@@ -1,6 +1,6 @@
 # How I Found a 6.38% Polymarket Hedge in Seconds: Building With Typed Tools and Drop-In Widgets
 
-![Hedge plan card](screenshots/06-hero-card.png)
+![Hedge plan card](screenshots/06-hero-card.webp)
 
 > A two-day take-home: an LLM scans 200+ prediction markets, extracts logical implications, and bundles a two-leg hedge into a single on-chain signature. Here's what worked, what I cut, and what AOMI's primitives actually buy you.
 
