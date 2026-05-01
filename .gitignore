@@ -11,3 +11,6 @@ build/
 .pnpm-store/
 target/
 Cargo.lock
+
+# build cache - never commit
+*.tsbuildinfo
