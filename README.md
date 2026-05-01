@@ -2,7 +2,7 @@
 
 > AI finds positive-EV Polymarket hedges. AOMI signs both legs in one transaction.
 
-![Hedge plan card showing +6.38% expected return on a Trump 2028 primary/general covering portfolio](distribution/screenshots/06-hero-card.png)
+![Hedge plan card showing +6.38% expected return on a Trump 2028 primary/general covering portfolio](distribution/screenshots/06-hero-card.webp)
 
 Built for the [AOMI Labs](https://aomi.dev) founding DevRel/PME take-home.
 Two days. Public repo. Working demo.
@@ -35,11 +35,11 @@ The hedge math is positive-EV under the LLM-extracted implication —
 
 | Step | Screenshot | What's happening |
 |---|---|---|
-| 1. User opens widget | ![](distribution/screenshots/01-empty.png) | Empty AomiFrame chat |
-| 2. Types prompt | ![](distribution/screenshots/02-typed.png) | "find me a 3%+ hedge under $50" |
-| 3. Plan card renders | ![](distribution/screenshots/03-plan.png) | +6.38% covering portfolio, both legs, honesty disclaimer |
-| 4. Simulate | ![](distribution/screenshots/04-simulated.png) | Forked-chain dry-run green |
-| 5. Sign | ![](distribution/screenshots/05-signed.png) | Para AA bundles both legs into one signature |
+| 1. User opens widget | ![](distribution/screenshots/01-empty.webp) | Empty AomiFrame chat |
+| 2. Types prompt | ![](distribution/screenshots/02-typed.webp) | "find me a 3%+ hedge under $50" |
+| 3. Plan card renders | ![](distribution/screenshots/03-plan.webp) | +6.38% covering portfolio, both legs, honesty disclaimer |
+| 4. Simulate | ![](distribution/screenshots/04-simulated.webp) | Forked-chain dry-run green |
+| 5. Sign | ![](distribution/screenshots/05-signed.webp) | Para AA bundles both legs into one signature |
 
 ## Quickstart
 
