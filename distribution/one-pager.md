@@ -3,7 +3,7 @@
 > Take-home for AOMI Labs Founding DevRel/PME role.
 > Roshan Kharel · `@geekyroshan_` · github.com/geekyroshan/aomi-hedge-sniper
 
-![](screenshots/06-hero-card.png)
+![](screenshots/06-hero-card.webp)
 
 ## The user
 
