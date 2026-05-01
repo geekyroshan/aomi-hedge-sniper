@@ -14,7 +14,7 @@ It returned a +6.38% expected-return covering portfolio in seconds.
 
 Free yield the orderbook leaves on the table — under the LLM-extracted implication, worst case disclosed.
 
-[image: distribution/screenshots/06-hero-card.png]
+[image: distribution/screenshots/06-hero-card.webp]
 
 ---
 
