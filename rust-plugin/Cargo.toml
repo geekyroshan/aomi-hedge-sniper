@@ -1,0 +1,27 @@
+[package]
+name = "aomi-hedge-sniper"
+version = "0.1.0"
+edition = "2021"
+authors = ["Roshan Kharel <roshan@allysai.com>"]
+description = "Production migration path for the Hedge Sniper analytics layer — typed AOMI plugin."
+license = "MIT"
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+# NOTE: aomi-sdk is path-resolved from a local checkout. The take-home build
+# expects you to clone aomi-labs/aomi-sdk side-by-side OR remove this stub.
+# This is intentional: the working demo is in apps/web; this crate is the
+# documented production migration target. See README.
+aomi-sdk = { git = "https://github.com/aomi-labs/aomi-sdk.git", branch = "main", optional = true }
+schemars = { version = "0.8", optional = true }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "1"
+
+[features]
+default = []
+# Enable the actual aomi-sdk wiring once the SDK crate is available locally.
+plugin = ["aomi-sdk", "schemars"]
